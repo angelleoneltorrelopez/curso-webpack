@@ -1,4 +1,13 @@
 
 
 usar webpack
-sudo npx webpack app.js -o output.js
+sudo npx webpack src/app.js -o build/output.js -p
+
+plugins webpack
+npm install --save-dev html-webpack-plugin
+
+install webpack devServer
+sudo npm install webpack-dev-server
+
+usar devServer
+sudo npx webpack-dev-server
