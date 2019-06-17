@@ -1,0 +1,4 @@
+
+
+usar webpack
+sudo npx webpack app.js -o output.js
